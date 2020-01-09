@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="function_box_setting">设置</string>
+    <string name="function_box_network">浏览器</string>
+    <string name="function_box_app">应用</string>
+    <string name="function_box_test">测试</string>
+    <string name="function_box_ruler">尺子</string>
+    <string name="function_box_auto_install">自动安装</string>
+    <string name="function_box_foreground_window">前台Activity</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="RoundBottom" tools:ignore="ResourceName">
+        <attr name="round_bottom_height" format="dimension"/>
+        <attr name="top_radius" format="dimension"/>
+        <attr name="shader_color" format="color"/>
+        <attr name="shader_height" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="RoundCorners" tools:ignore="ResourceName">
+        <attr name="rx" format="dimension"/>
+        <attr name="ry" format="dimension"/>
+    </declare-styleable>
+</resources>

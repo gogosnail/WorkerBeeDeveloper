@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <me.gogosnail.workerbee.base.widget.CommonTitleBar
+        android:id="@id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        app:back_ic="@drawable/ic_title_back"
+        app:bg_color="@color/primary"
+        app:more_ic="@drawable/ic_title_more"
+        app:more_show="false"
+        app:title_color="@color/icons"
+        app:title_str="@string/test_function_schemas_title" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_schemas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/shape_line_gray_radius_8"
+        android:padding="8dp"
+        android:gravity="top|left"
+        android:hint="输入跳转的Schema"
+        android:lines="5"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/font_middle" />
+
+
+    <Button
+        android:id="@+id/btn_jump"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/divider"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/jump_to"
+        android:textColor="@color/accent"
+        android:textSize="16dp" />
+</LinearLayout>

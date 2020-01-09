@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.gogosnail.workerbee.box.ruler.RulerCaptureView
+        android:id="@+id/capture_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_ruler_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black_alpha_30"
+        android:layout_gravity="left|top"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/iv_control"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:scaleType="center"
+            android:src="@drawable/ic_control" />
+
+        <TextView
+            android:id="@+id/tv_ruler"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/ic_ruler_white"
+            android:gravity="center"
+            android:scaleType="center"
+            android:text="@string/ruler_measure"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_eraser"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:drawableTop="@drawable/ic_eraser_white"
+            android:gravity="center"
+            android:scaleType="center"
+            android:text="@string/ruler_clear"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.gogosnail.workerbee.MainActivity">
+
+    <me.gogosnail.workerbee.base.widget.CommonTitleBar
+        android:id="@id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        app:title_str="@string/title_main"
+        app:back_ic="@drawable/ic_title_back"
+        app:more_ic="@drawable/ic_title_more"
+        app:bg_color="@color/primary"
+        app:title_color="@color/icons"
+        app:back_show="false"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:layout_height="0dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

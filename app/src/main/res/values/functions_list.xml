@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="graphics_function_setting_observer_title">当前观察应用管理</string>
+    <string name="graphics_function_setting_observer_desc">更换当前全局观察的应用，卸载、管理当前应用</string>
+    <string name="graphics_function_setting_date_title">日期时间设置</string>
+    <string name="graphics_function_setting_developer_title">开发者选项</string>
+    <string name="graphics_function_setting_wifi_title">WIFI设置</string>
+
+    <string name="graphics_function_bezier_title">贝塞尔曲线</string>
+    <string name="graphics_function_bezier_desc">调整贝塞尔曲线，辅助UI效果</string>
+    <string name="graphics_function_bitmap_save_title">图片保存</string>
+    <string name="graphics_function_bitmap_save_desc">绘制自定义图片</string>
+
+    <string name="app_function_scan_title">应用列表</string>
+    <string name="app_function_scan_desc">扫描手机中所有的应用</string>
+
+    <string name="test_function_schemas_title">schema跳转测试</string>
+    <string name="test_function_schemas_desc">测试schema跳转</string>
+
+    <string name="tool_function_install_access">自动安装应用</string>
+    <string name="tool_function_install_access_desc">自动安装应用，免点击，免输入密码</string>
+    <string name="tool_function_ruler">尺子</string>
+    <string name="tool_function_ruler_desc">测量屏幕上的一段距离</string>
+    <string name="tool_function_foreground">前台Activity界面监听</string>
+    <string name="tool_function_foreground_desc">显示当前的Activity</string>
+
+    <string name="network_function_webview">网页浏览</string>
+    <string name="network_function_webview_desc">测试网页的展示</string>
+</resources>

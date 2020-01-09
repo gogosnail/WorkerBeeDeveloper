@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <me.gogosnail.workerbee.base.widget.CommonTitleBar
+        android:id="@id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        app:back_ic="@drawable/ic_title_back"
+        app:bg_color="@color/primary"
+        app:more_ic="@drawable/ic_title_more"
+        app:more_show="false"
+        app:title_color="@color/icons"
+        app:title_str="@string/tool_function_ruler" />
+
+    <include
+        android:id="@+id/ll_floating_permission"
+        layout="@layout/item_common_single_text_setting"/>
+
+    <include
+        android:id="@+id/ll_use_dp"
+        layout="@layout/item_common_text_with_checkbox_setting" />
+
+    <include
+        android:id="@+id/ll_switch"
+        layout="@layout/item_common_single_text_setting" />
+
+    <TextView
+        android:id="@+id/tv_describe_info"
+        android:textColor="@color/secondary_text"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/font_middle"
+        android:text="@string/ruler_guide_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

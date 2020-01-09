@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/primary"
+        >
+
+        <ImageView
+            android:id="@id/title_bar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_title_back"
+            android:background="@drawable/normal_button_background_selector"
+            android:gravity="left|center"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:singleLine="true"
+            android:textSize="@dimen/title_text_size" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/et_address"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:textSize="@dimen/font_middle"
+            android:textColor="@color/white"
+            android:gravity="center|left"
+            android:hint="输入网址"
+            android:textColorHint="@color/white_50"
+            />
+
+        <TextView
+            android:id="@+id/tv_go"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/start"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:textColor="@color/white"
+            android:paddingEnd="20dp"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            />
+    </LinearLayout>
+
+    <WebView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/webview"
+        android:layout_weight="1" />
+</LinearLayout>

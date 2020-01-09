@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+    <declare-styleable name="CommonTitleBar">
+        <!--背景色 -->
+        <attr name="bg_color" format="reference"/>
+        <!--返回键 -->
+        <attr name="back_ic" format="reference"/>
+        <!--更多按钮图标 -->
+        <attr name="more_ic" format="reference"/>
+        <!--标题 -->
+        <attr name="title_str" format="reference"/>
+        <!--标题颜色 -->
+        <attr name="title_color" format="reference"/>
+        <!--显示返回按钮 -->
+        <attr name="back_show" format="boolean"/>
+        <!--显示更多按钮 -->
+        <attr name="more_show" format="boolean"/>
+    </declare-styleable>
+
+</resources>

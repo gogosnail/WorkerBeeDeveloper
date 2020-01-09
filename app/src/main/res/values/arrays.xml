@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_info_long_press">
+        <item>设置为全局观察对象</item>
+        <item>拷贝信息</item>
+        <item>应用管理</item>
+    </string-array>
+</resources>

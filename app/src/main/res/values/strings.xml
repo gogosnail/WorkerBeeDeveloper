@@ -1,0 +1,39 @@
+<resources>
+    <!--<string name="app_name">工蜂</string>-->
+    <string name="title_main">工具箱</string>
+    <string name="title_graphics_bezier">贝塞尔曲线</string>
+    <string name="title_graphics_bottom_arc">底部圆弧</string>
+    <string name="title_app_scan">应用</string>
+    <string name="title_about">关于</string>
+    <string name="title_observer_app_options">观察应用处理</string>
+
+    <string name="btn_change">更换</string>
+    <string name="current_overall_observer_app">当前全局观察应用</string>
+
+    <string name="tips_clipboard_copy">拷贝成功</string>
+
+    <string name="install_access_manage_service">开启/关闭辅助功能</string>
+    <string name="install_function_switch">开启自动安装</string>
+    <string name="install_accessibility">工蜂安装应用辅助</string>
+    <string name="install_accessibility_desc">安装应用时，自动填充手机密码</string>
+    <string name="install_accessibility_guide_tips">使用步骤：\n1、打开功能开关.\n2、开启辅助功能中的【工蜂安装应用辅助】.\n3、如果手机有安装密码，设置安装密码.</string>
+
+    <string name="authority_floating">开启悬浮窗权限</string>
+    <string name="ui_guide_accessibility">UI尺寸辅助</string>
+
+    <string name="foreground_monitor_function_switch">开启前台监听</string>
+    <string name="foreground_monitor_accessibility">工蜂前台Window监听</string>
+    <string name="foreground_monitor_accessibility_desc">查看当前的前台Activity</string>
+    <string name="foreground_monitor_accessibility_guide_tips">使用步骤：\n1、打开功能开关.\n2、开启应用悬浮窗权限.\n3、开启辅助功能中的【工蜂前台Window监听】.</string>
+
+    <string name="ruler_unit_use_dp">使用dp作为尺子单位</string>
+    <string name="ruler_guide_tips">使用步骤：\n1、打开功能开关.\n2、开启应用悬浮窗权限.\n3、点击测量按钮，在屏幕上划过一段距离，进行测量</string>
+    <string name="ruler_measure">测量</string>
+    <string name="ruler_clear">清空</string>
+
+    <string name="save">保存</string>
+    <string name="start">开始</string>
+    <string name="jump_to">跳转</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+</resources>
