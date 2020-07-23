@@ -11,7 +11,7 @@ import me.gogosnail.workerbee.base.utils.Logger
 /** Created by max on 2019/3/22.<br/>
  */
 
-const val PRINT_LOG = false
+const val PRINT_LOG = true
 const val TAG = "InstallAccessibilityService"
 
 class InstallAccessibilityService : AccessibilityService() {

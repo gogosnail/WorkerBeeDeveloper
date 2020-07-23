@@ -11,7 +11,7 @@ import me.gogosnail.workerbee.base.ui.BaseToast
 object ClipboardUtils {
     fun setClip(context: Context, text: CharSequence) {
         (context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager).primaryClip = ClipData.newPlainText("", text)
-        BaseToast.showToast(R.string.tips_clipboard_copy)
+        BaseToast.showToast(context.getString(R.string.tips_clipboard_copy, text))
     }
 
     fun getClip(context: Context): CharSequence? {

@@ -10,7 +10,7 @@
     <string name="btn_change">更换</string>
     <string name="current_overall_observer_app">当前全局观察应用</string>
 
-    <string name="tips_clipboard_copy">拷贝成功</string>
+    <string name="tips_clipboard_copy">拷贝[%1$s]成功</string>
 
     <string name="install_access_manage_service">开启/关闭辅助功能</string>
     <string name="install_function_switch">开启自动安装</string>

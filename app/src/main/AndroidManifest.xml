@@ -86,6 +86,15 @@
         <provider
             android:name=".base.environment.PreferenceContentProvider"
             android:authorities="me.gogosnail.workerbee.preference" />
+
+        <receiver android:name=".box.adb.AdbMessageReceiver"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="workerbee.setclip"></action>
+                <action android:name="workerbee.getclip"></action>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
