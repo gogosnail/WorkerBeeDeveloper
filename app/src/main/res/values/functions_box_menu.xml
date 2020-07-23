@@ -7,4 +7,5 @@
     <string name="function_box_ruler">尺子</string>
     <string name="function_box_auto_install">自动安装</string>
     <string name="function_box_foreground_window">前台Activity</string>
+    <string name="function_box_clipboard">剪切板</string>
 </resources>

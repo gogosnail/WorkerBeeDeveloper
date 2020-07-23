@@ -44,7 +44,7 @@ class AdbMessageReceiver: BroadcastReceiver() {
                     resultData = "error:剪切板无内容"
                 } else {
                     resultCode = Activity.RESULT_OK
-                    resultData = "剪切板:$clipTxt"
+                    resultData = "剪切板:\n$clipTxt\n"
                 }
             }
         }

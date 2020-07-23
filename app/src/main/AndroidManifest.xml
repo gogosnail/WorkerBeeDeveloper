@@ -53,6 +53,8 @@
 
         <activity android:name="me.gogosnail.workerbee.box.ruler.RulerSettingActivity" />
 
+        <activity android:name="me.gogosnail.workerbee.box.adb.AdbClipDescriptionActivity" />
+
         <service
             android:name="me.gogosnail.workerbee.box.auto_install.InstallAccessibilityService"
             android:exported="true"

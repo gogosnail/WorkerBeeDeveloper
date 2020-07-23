@@ -31,6 +31,13 @@
     <string name="ruler_measure">测量</string>
     <string name="ruler_clear">清空</string>
 
+    <string name="adb_clip_description">剪切板使用说明，长按复制命令</string>
+    <string name="adb_set_clip_description">1.发送剪切板命令：</string>
+    <string name="adb_set_clip_command">adb shell am broadcast -a workerbee.setclip -f 16777216 -es \'要复制的文本\'</string>
+    <string name="adb_get_clip_description">2.获取剪切板命令：</string>
+    <string name="adb_get_clip_command">adb shell am broadcast -a workerbee.getclip -f 16777216</string>
+
+
     <string name="save">保存</string>
     <string name="start">开始</string>
     <string name="jump_to">跳转</string>

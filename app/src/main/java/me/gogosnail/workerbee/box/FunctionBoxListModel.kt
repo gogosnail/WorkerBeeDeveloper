@@ -2,6 +2,7 @@ package me.gogosnail.workerbee.box
 
 import me.gogosnail.workerbee.BaseApplication
 import me.gogosnail.workerbee.base.FUNCTION_TAG
+import me.gogosnail.workerbee.box.adb.AdbClipDescriptionActivity
 import me.gogosnail.workerbee.box.app.AppListScanActivity
 import me.gogosnail.workerbee.box.auto_install.AutoInstallToolActivity
 import me.gogosnail.workerbee.box.foreground_monitor.ForegroundMonitorActivity
@@ -21,6 +22,7 @@ class FunctionBoxListModel {
         val list = mutableListOf<FunctionBoxBean>()
         list.addItem(FUNCTION_BOX_AUTO_INSTALL)
         list.addItem(FUNCTION_BOX_FOREGROUND_WINDOW)
+        list.addItem(FUNCTION_BOX_CLIPBOARD)
         list.addItem(FUNCTION_BOX_RULER)
         list.addItem(FUNCTION_BOX_SETTING)
         list.addItem(FUNCTION_BOX_NETWORK)
@@ -50,6 +52,9 @@ class FunctionBoxListModel {
             }
             FUNCTION_BOX_FOREGROUND_WINDOW -> {
                 intent.targetClass = ForegroundMonitorActivity::class.java.name
+            }
+            FUNCTION_BOX_CLIPBOARD -> {
+                intent.targetClass = AdbClipDescriptionActivity::class.java.name
             }
             else -> {
                 intent.targetClass = FunctionListActivity::class.java.name
